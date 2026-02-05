@@ -3,7 +3,7 @@ import string
 import nltk
 from nltk.corpus import stopwords
 
-# برای اولین بار:
+
 nltk.download('stopwords')
 
 stop_words = set(stopwords.words('english'))
